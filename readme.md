@@ -46,6 +46,10 @@ API endpoint доступен  по ссылке `http://127.0.0.1:5000/api/numb
 Чтобы добавить новую модель, объявите функцию `def my_model(X): ...` в `service/predict.py`
 и зарегистрируйте её в словаре `MODELS` — после этого её можно выбрать через `-m` / `MODEL_NAME`.
 
+## Сбор данных
+Для сбора данных используем [Instant data scraper](https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah?pli=1)
+
+
 ### Признаки
 Используемые данные включают следующие характеристики:
 * Площадь жилья
